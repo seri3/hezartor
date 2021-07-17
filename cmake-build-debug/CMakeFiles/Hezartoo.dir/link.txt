@@ -1,0 +1,3 @@
+"D:\Program Files\JetBrains\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\Hezartoo.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\Hezartoo.dir/objects.a @CMakeFiles\Hezartoo.dir\objects1.rsp
+C:\MinGW\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\Hezartoo.dir/objects.a -Wl,--no-whole-archive -o Hezartoo.exe -Wl,--out-implib,libHezartoo.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Hezartoo.dir\linklibs.rsp
